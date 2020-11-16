@@ -5,5 +5,5 @@ macro_rules! hello{//declaração da macro
 }
 
 fn main(){
-	hello!();
+	hello!();//chamada da macro
 }
