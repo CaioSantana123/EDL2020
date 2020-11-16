@@ -1,4 +1,4 @@
-macro_rules! hello{
+macro_rules! hello{//declaração da macro
 	()=>{
 			print!("Hello World\n");
 		}
