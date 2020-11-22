@@ -4,7 +4,7 @@ fn main(){
 		if x%2==0{
 			println!("Par: {}",x);
 		}else{
-			println!("Impar {}", x);
+			println!("Impar: {}", x);
 		}
 		x+=1;
 	}
