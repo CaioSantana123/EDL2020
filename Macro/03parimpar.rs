@@ -9,3 +9,4 @@ fn main(){
 		x+=1;
 	}
 }
+//if-else checando se o número é par ou ímpar e imprime na tela
