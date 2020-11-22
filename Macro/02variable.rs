@@ -4,7 +4,9 @@ fn main(){
 		println!("The number is {}", x);
 		x+=1;
 		if x==100{
+			println!("The number is {}", x);
 			break;
 		}
 	}
 }
+//estrutura de repetição while com break
