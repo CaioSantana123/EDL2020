@@ -1,4 +1,4 @@
-fn sum(x: f32, y: f32) -> f32{
+fn sum(x: f32, y: f32) -> f32{//função que recebe 2 variáveis do tipo f32(float de 32 bits) e realiza a operação
 	x + y
 }
 fn sub(x: f32, y: f32) -> f32{
@@ -11,12 +11,8 @@ fn div(x: f32, y: f32) -> f32{
 	x / y
 }
 fn main(){
-	let mut x = sum(10.5,3.4);
-	let mut x = sub(10.5,3.4);
-	let mut x = mult(10.5,3.4);
-	let mut x = div(10.5,3.4);
-	print!("Soma 10.5 + 3.4: {}\n", x);
-	print!("Subt 10.5 - 3.4: {}\n", x);
-	print!("Mult 10.5 * 3.4: {}\n", x);
-	print!("Div 10 / 3.4: {}\n", x);
+	print!("Soma 10.5 + 3.4: {}\n", sum(10.5,3.4)); //chamada das funções
+	print!("Subt 10.5 - 3.4: {}\n", sub(10.5,3.4));
+	print!("Mult 10.5 * 3.4: {}\n", mult(10.5,3.4));
+	print!("Divisao 10 / 3.4: {}\n", div(10.5,3.4));
 }
